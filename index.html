@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
-    <!-- its bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
+    <!-- ukit css link -->
+    <link rel="stylesheet" href="css/uikit.min.css">
+    
     <!-- its fontawsome css -->
     <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- its bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- its my css -->
     <link rel="stylesheet" href="css/style.css">
@@ -17,7 +20,7 @@
 </head>
 <body>
     <!-- nav section start -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-light">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-light"  uk-sticky="top: 200; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
         <div class="container">
             <a class="navbar-brand" href="index.html">Glozzom</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
@@ -47,28 +50,28 @@
             <div class="carousel-inner">
                 <div class="carousel-item carousel-img-1 active">
                     <div class="container">
-                        <div class="carousel-caption mb-5 pb-5 ">
+                        <div class="carousel-caption mb-3 pb-3 mb-md-5 pb-md-5">
                             <h2 class="display-4">Heading one</h2>
                             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aliquam natus quod necessitatibus officia magni voluptas itaque, similique quae sit?</p>
-                            <a href="#" class="btn btn-info">Learn More</a>
+                            <a href="#" class="btn btn-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item carousel-img-2">
                     <div class="container">
-                        <div class="carousel-caption mb-5 pb-5 ">
+                        <div class="carousel-caption mb-3 pb-3 mb-md-5 pb-md-5 ">
                             <h2 class="display-4">Heading two</h2>
                             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aliquam natus quod necessitatibus officia magni voluptas itaque, similique quae sit?</p>
-                            <a href="#" class="btn btn-info">Learn More</a>
+                            <a href="#" class="btn btn-outline-info">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item carousel-img-3">
                     <div class="container">
-                        <div class="carousel-caption mb-5 pb-5">
+                        <div class="carousel-caption mb-3 pb-3 mb-md-5">
                             <h2 class="display-">Heading 3</h2>
                             <p class="lead ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aliquam natus quod necessitatibus officia magni voluptas itaque, similique quae sit?</p>
-                            <a href="#" class="btn btn-info">Learn More</a>
+                            <a href="#" class="btn btn-outline-success">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -107,8 +110,142 @@
         </div>
     </section>
     <!-- home icon section end -->
+
+    <!-- home get start -->
+    <section class="get-start text-center text-light py-5">
+        <div class="overlay">
+            <div class="container">
+                <div class="row mt-4">
+                    <div class="col mt-5">
+                        <h2>Are You Ready To Get Started?</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quaerat voluptatem laboriosam vero recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi laudantium quod dicta, a quaerat vel, obcaecati!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- home-- info section -->
+    <section class="info py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <h3>Lorem Ipsum Dolor Sit</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, quaerat unde labore sequi facilis possimus nulla a! Aliquam, saepe illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, praesentium!</p>
+                    <a href="#" class="btn btn-outline-dark">Read More</a>
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <img src="img/pc.jpeg" class="img-fluid rounded" alt="myPc">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- home-- info sectin end -->
+
+
+    <!-- home -- youtube video section start -->
+    <section  class="video text-center text-light" uk-lightbox>
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col mt-5 pt-4">
+                        <div >
+                            <a href="www.youtube.com/arijitsingh" class="text-light"> <i class="fas fa-play fa-3x mb-3"></i></a>
+                        </div>
+                        <h3> Bootstrap 4 Crash Course</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- home -- youtube video section end -->
+
+
+    <!-- home -- gellary section start -->
+    <section class="gellary text-center py-5" uk-lightbox>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Photo Gallery</h3>
+                    <p class="lead">Check out our photo</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="img/image1.jpeg">
+                        <img src="img/image1.jpeg" class="img-fluid"alt="">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="img/image2.jpeg">
+                        <img src="img/image2.jpeg" class="img-fluid"alt="">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="img/image3.jpeg">
+                        <img src="img/image3.jpeg" class="img-fluid"alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mt-md-4">
+                <div class="col-md-4">
+                    <a href="img/image4.jpeg">
+                        <img src="img/image4.jpeg" class="img-fluid"alt="">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="img/image5.jpeg">
+                        <img src="img/image5.jpeg" class="img-fluid"alt="">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="img/image6.jpeg">
+                        <img src="img/image6.jpeg" class="img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- home -- gellary section end -->
+
+    <!-- home -- form -->
+    <section class="home-form text-center py-5 text-light bg-dark">
+        <div class="container">
+            <div class="col">
+                <h2>Signup For Our Newsletter</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis magnam similique esse assumenda quasi repellendus illum perferendis quos aliquid possimus.</p>
+                <form action="" method="POST" class="form-inline justify-content-center">
+                    <label for="name" class="sr-only">Name</label>
+                    <input type="text" placeholder="Your Name" class="form-control m-2">
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="email" placeholder="Your Email" class="form-control m-2">
+                    <a href="#" class="btn btn-primary m-2">Subscribe</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- home -- form end -->
+
+    <!-- copy right section start -->
+    <section class="copyright text-center py-3 text-light">
+        <div class="container">
+            <p class="lead mb-0 text-muted">Copyright 2018 © Glozzom</p>
+        </div>
+    </section>
+
+    <!-- copy right sectin end -->
+
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/uikit.min.js "></script>
+    <script src="js/uikit-icons.js"></script>
 </body>
 </html>

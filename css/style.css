@@ -26,13 +26,62 @@ nav{
 .cursor-pointer{
     cursor: pointer;
 }
+.get-start{
+    position: relative;
+    background:url('../img/bg1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+.get-start .overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    top:0;
+    left:0;
+    width: 100%;
+    min-height: 100%;
+}
+
+.video{
+    position: relative;
+    background:url('../img/people.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+.video .overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    top:0;
+    left:0;
+    width: 100%;
+    min-height: 100%;
+}
+
+.gellary img{
+    min-height: 250px;
+}
+
+.copyright{
+    background: #000;
+}
 @media(max-width:767px){
     .navbar-nav li{
         margin-left: 0;
     }
+    .get-start{
+        height: 300px;
+    }
 }
 @media(max-width:480px){
+
 .carousel h2{
-    font-size:2.5rem
+    font-size: 2rem;
+}
+.get-start{
+    height: 450px;
+  
 }
 }
