@@ -89,6 +89,36 @@ nav{
     color:#000;
     font-weight: bold;
 }
+
+/* 
+services css */
+.services-header{
+    background: url('../img/image3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+
+/* blog css */
+.blog-header{
+    background: url('../img/image2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+
+/* contuct css */
+.contuct-header{
+    background: url('../img/image6.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+
+
 @media(max-width:767px){
     .navbar-nav li{
         margin-left: 0;
