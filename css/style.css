@@ -67,6 +67,28 @@ nav{
 .copyright{
     background: #000;
 }
+
+
+/* about page css */
+
+.about{
+    background: url('../img/image1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+.work img{
+    width:350px;
+    height: 350px;
+}
+.testimonial .slick-prev::before {
+    color:#000;
+}
+.testimonial .slick-next::before {
+    color:#000;
+    font-weight: bold;
+}
 @media(max-width:767px){
     .navbar-nav li{
         margin-left: 0;
